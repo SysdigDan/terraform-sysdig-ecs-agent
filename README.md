@@ -3,7 +3,7 @@
 Terraform module that deploys the Sysdig Agent for AWS ECS.
 <br/>
 
-## Example Varibles
+## Example Variables
 
 ```terraform
 aws_region = "us-east-1"
