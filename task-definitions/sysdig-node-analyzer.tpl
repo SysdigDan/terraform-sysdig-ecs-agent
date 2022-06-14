@@ -78,7 +78,7 @@
     "name": "sysdig-ecs-host-analyzer",
     "image": "quay.io/sysdig/host-analyzer:latest",
     "privileged": true,
-    "memory": 256,
+    "memory": 512,
     "environment": [
       {
         "name": "ACCESS_KEY",
