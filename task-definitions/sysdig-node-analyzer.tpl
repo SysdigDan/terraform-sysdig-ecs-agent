@@ -2,7 +2,7 @@
   {
     "name": "sysdig-ecs-node-image-analyzer",
     "image": "quay.io/sysdig/node-image-analyzer:latest",
-    "memory": 512,
+    "memoryReservation": 512,
     "privileged": true,
     "environment": [
       {
@@ -38,7 +38,7 @@
     "name": "sysdig-ecs-compliance-benchmark",
     "image": "quay.io/sysdig/compliance-benchmark-runner:latest",
     "privileged": true,
-    "memory": 256,
+    "memoryReservation": 128,
     "environment": [
       {
         "name": "ACCESS_KEY",
@@ -78,7 +78,7 @@
     "name": "sysdig-ecs-host-analyzer",
     "image": "quay.io/sysdig/host-analyzer:latest",
     "privileged": true,
-    "memory": 512,
+    "memoryReservation": 512,
     "environment": [
       {
         "name": "ACCESS_KEY",
