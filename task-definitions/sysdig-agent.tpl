@@ -3,7 +3,7 @@
     "name": "sysdig-ecs-agent",
     "image": "sysdig/agent",
     "memory": 1024,
-    "memory": 1024,
+    "memoryReservation": 1024,
     "privileged": true,
     "environment": [
       {
