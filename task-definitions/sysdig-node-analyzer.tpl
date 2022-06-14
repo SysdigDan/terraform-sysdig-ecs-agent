@@ -2,7 +2,7 @@
   {
     "name": "sysdig-ecs-node-image-analyzer",
     "image": "quay.io/sysdig/node-image-analyzer:latest",
-    "memory": 256,
+    "memory": 512,
     "privileged": true,
     "environment": [
       {
