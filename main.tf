@@ -1,6 +1,6 @@
 resource "aws_ecs_task_definition" "sysdig-agent" {
   family = "sysdig-agent"
-  container_definitions = data.template_file.sysdig-agent.rendered
+  container_definitions = data.template_file.sysdig-agent-slim.rendered
   pid_mode = "host"
   network_mode = "host"
   volume {
